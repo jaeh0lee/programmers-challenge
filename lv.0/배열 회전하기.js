@@ -2,7 +2,7 @@ function solution(numbers, direction) {
   const answer = [];
   if (direction === "right") {
     answer.push(numbers[numbers.length - 1]);
-    for (let i = 0; i < numbers.length - 1; ) {
+    for (let i = 0; i < numbers.length - 1; i++) {
       answer.push(numbers[i]);
     }
   } else {
